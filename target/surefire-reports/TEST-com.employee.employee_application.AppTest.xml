@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-3\assignments\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15266423884028250055.tmp"/>
+    <property name="classworlds.conf" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-3\assignments\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16870210484034502963.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Prashanth patel\Downloads\jdk-11.0.12_windows-x64_bin.zip\jdk-11.0.12\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\Prashanth patel\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Prashanth patel\AppData\Local\Microsoft\WindowsApps;C:\Users\Prashanth patel\Documents\Prashanth\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\ProgramData\Prashanth patel\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Prashanth patel\AppData\Roaming\npm;C:\Users\Prashanth patel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Prashanth patel\Downloads\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\2.SOLIX TECHNOLOGIES\Training session\sonarqube-9.4.0.54424\bin\windows-x86-64;C:\Program Files\Java\jdk-11.0.13\bin;;."/>
     <property name="jdk.debug" value="release"/>
@@ -41,7 +41,7 @@
     <property name="java.class.path" value="C:\Users\Prashanth patel\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean compile package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
