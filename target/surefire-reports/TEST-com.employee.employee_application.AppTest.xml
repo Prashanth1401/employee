@@ -1,60 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.employee.employee_application.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.employee.employee_application.AppTest" time="0.002" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\maven\employee-application\target\test-classes;E:\maven\employee-application\target\classes;C:\Users\dell\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dell\.m2\repository\com\maven\employee-service\1.0-SNAPSHOT\employee-service-1.0-SNAPSHOT.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-5\assignments\employee"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire8571703150237834553\surefirebooter3867632727583057815.jar C:\Users\dell\AppData\Local\Temp\surefire8571703150237834553 2022-06-05T13-07-23_376-jvmRun1 surefire5809284782189582621tmp surefire_010703619398577180708tmp"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-5\assignments\employee"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRASHA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-3\assignments\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15266423884028250055.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Prashanth patel\Downloads\jdk-11.0.12_windows-x64_bin.zip\jdk-11.0.12\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\Prashanth patel\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Prashanth patel\AppData\Local\Microsoft\WindowsApps;C:\Users\Prashanth patel\Documents\Prashanth\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\ProgramData\Prashanth patel\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Prashanth patel\AppData\Roaming\npm;C:\Users\Prashanth patel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Prashanth patel\Downloads\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\2.SOLIX TECHNOLOGIES\Training session\sonarqube-9.4.0.54424\bin\windows-x86-64;C:\Program Files\Java\jdk-11.0.13\bin;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="E:\maven\employee-application\target\test-classes;E:\maven\employee-application\target\classes;C:\Users\dell\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dell\.m2\repository\com\maven\employee-service\1.0-SNAPSHOT\employee-service-1.0-SNAPSHOT.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\dell"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Prashanth patel"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Prashanth patel"/>
+    <property name="java.class.path" value="C:\Users\Prashanth patel\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean compile package"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-04-22"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="E:\maven\employee-application"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire8571703150237834553\surefirebooter3867632727583057815.jar"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
-    <property name="user.name" value="dell"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\dell\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.3.1"/>
-    <property name="user.dir" value="E:\maven\employee-application"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;D:\softwares\WINDOWS.X64_193000_db_home\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;E:\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Git\bin;E:\sonarqube-9.4.0.54424\bin\windows-x86-64;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\2.SOLIX TECHNOLOGIES\Training session\WEEK-5\assignments\employee\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.employee.employee_application.AppTest" time="0.003"/>
+  <testcase classname="com.employee.employee_application.AppTest" name="shouldAnswerWithTrue" time="0.002"/>
 </testsuite>
